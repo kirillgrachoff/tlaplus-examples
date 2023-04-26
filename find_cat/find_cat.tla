@@ -17,4 +17,6 @@ Next == \E door \in 0..Doors : OpenDoor(door)
 
 CatWalk == CatDistr # {}
 
+Spec == Init /\ [][Next]_<<CatDistr, LastDoor>>
+
 ====
